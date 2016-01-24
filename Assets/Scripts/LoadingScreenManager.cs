@@ -37,7 +37,7 @@ public class LoadingScreenManager : MonoBehaviour
     Scene currentScene;
 
     // This is the build index of your loading scene
-    static int loadingSceneIndex = 5;
+    static int loadingSceneIndex = 1;
     public static int sceneToLoad = -1;
 
     public static void LoadScene(int levelNum)
@@ -45,7 +45,6 @@ public class LoadingScreenManager : MonoBehaviour
         Application.backgroundLoadingPriority = ThreadPriority.High;
         sceneToLoad = levelNum;
         SceneManager.LoadScene(loadingSceneIndex);
-        print("loading");
     }
 
     void Start()

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour {
 
@@ -8,7 +9,6 @@ public class StartGame : MonoBehaviour {
 	public void PlayButton ()
     {
         LoadingScreenManager.LoadScene(2);
-        SceneManager.LoadScene(1);
     }
 	
 }
