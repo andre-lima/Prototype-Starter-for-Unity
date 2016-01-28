@@ -8,7 +8,7 @@ public class StartGame : MonoBehaviour {
 	// Use this for initialization
 	public void PlayButton ()
     {
-        LoadingScreenManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 	
 }
